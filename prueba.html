@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Prueba</title>
-    <link rel="icon" type="image/x-icon" href="resources/logo_html.webp">
+    <link rel="icon" type="image/x-icon" href="resources/logo_html.webp" />
   </head>
   <body>
     <h1>Hola mundo!!!</h1>
@@ -73,9 +73,58 @@
       </tbody>
       <tfoot>
         <td colspan="3">Fin de la tabla</td>
-      </tfoot> 
+      </tfoot>
     </table>
 
     &lt; &gt; &#8706; &#128515;
+
+    <br />
+    <form action="" method="">
+      <label for="">Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Ingrese le nombre"
+        minlength="3"
+        maxlength="8"
+        required
+      />
+      <label for="">Contraseña</label>
+      <input type="password" name="pwd" placeholder="Ingrese su contraseña">
+      <br>
+      <fieldset>
+        <legend>Datos básicos</legend>
+        <div>
+            <label for="">Edad</label>
+            <input type="number" name="edad" min="2" max="120">
+        </div>
+        <div>
+            <label for="">Fechas</label>
+            <input type="date" name="fecha">
+            <input type="datetime" name="fecha1">
+            <input type="datetime-local" name="fecha2">
+            <input type="month" name="mes">
+            <input type="week" name="semana">
+            <input type="time" name="hora">
+        </div>
+        <div>
+            <label for="">Color</label>
+            <input type="color" name="color1">
+            <input type="file" name="archivo">
+        </div>
+      </fieldset>
+
+      <div>
+        <input type="button" value="Normal" />
+        <input type="reset" value="Limpiar" />
+        <input type="submit" value="Enviar" />
+        <br />
+        <button type="button">Normal</button>
+        <button type="reset">Limpiar</button>
+        <button type="submit">
+          Enviar <img src="resources/logo_html.webp" alt="HMTL" width="34" />
+        </button>
+      </div>
+    </form>
   </body>
 </html>
