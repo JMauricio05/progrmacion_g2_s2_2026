@@ -90,27 +90,68 @@
         required
       />
       <label for="">Contraseña</label>
-      <input type="password" name="pwd" placeholder="Ingrese su contraseña">
-      <br>
+      <input type="password" name="pwd" placeholder="Ingrese su contraseña" />
+      <br />
       <fieldset>
         <legend>Datos básicos</legend>
         <div>
-            <label for="">Edad</label>
-            <input type="number" name="edad" min="2" max="120">
+          <label for="">Edad</label>
+          <input type="number" name="edad" min="2" max="120" />
         </div>
         <div>
-            <label for="">Fechas</label>
-            <input type="date" name="fecha">
-            <input type="datetime" name="fecha1">
-            <input type="datetime-local" name="fecha2">
-            <input type="month" name="mes">
-            <input type="week" name="semana">
-            <input type="time" name="hora">
+          <label for="">Fechas</label>
+          <input type="date" name="fecha" />
+          <input type="datetime" name="fecha1" />
+          <input type="datetime-local" name="fecha2" />
+          <input type="month" name="mes" />
+          <input type="week" name="semana" />
+          <input type="time" name="hora" />
         </div>
         <div>
-            <label for="">Color</label>
-            <input type="color" name="color1">
-            <input type="file" name="archivo">
+          <label for="">Color</label>
+          <input type="color" name="color1" />
+          <input type="file" name="archivo" />
+        </div>
+        <div>
+          <label for="">
+            <input type="radio" name="opcion" value="opt1" />
+            Opcion 1
+          </label>
+          <label for="">
+            <input type="radio" name="opcion" value="opt2" />
+            Opcion 2
+          </label>
+          <label for="">
+            <input type="radio" name="opcion" value="opt3" />
+            Opcion 3
+          </label>
+        </div>
+        <div>
+          <label for="">
+            <input type="checkbox" name="check1" />
+            Opcionn 1
+          </label>
+          <label for="">
+            <input type="checkbox" name="check2" checked />
+            Opcionn 2
+          </label>
+          <label for="">
+            <input type="checkbox" name="check3" />
+            Opcionn 3
+          </label>
+        </div>
+        <div>
+          <label for="">Seleccione la ciudad:</label>
+          <select name="ciudad">
+            <option>Seleccie una opcion</option>
+            <option value="1">Tunja</option>
+            <option value="2">Diutama</option>
+            <option value="3" selected>Sogamoso</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Observaciones:</label>
+          <textarea name="obs" cols="20" rows="30"></textarea>
         </div>
       </fieldset>
 
