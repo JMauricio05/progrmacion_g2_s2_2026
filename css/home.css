@@ -1,0 +1,136 @@
+.titulo {
+  color: #9c0000;
+  color: rgb(255,55,150);
+  color: rgba(0,0,0,0.5);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35pt;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  text-decoration: overline;
+  text-decoration: underline;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  text-shadow: 0px 0px 10px #000ac5;
+  letter-spacing: 12px;
+  word-spacing: 20px;
+
+  border-width: 5px;
+  border-color: rgb(3, 3, 253);
+  border-style: solid;
+  border: 3px solid #9c0000;
+  border-radius: 16px;
+  border-bottom-right-radius: 50%;
+  border-bottom-width: 7px ;
+  border-bottom-color: #00078e;
+  border-bottom-style: dotted;
+  border-top-style: double;
+  border-top-color: #4eae00;
+
+  width: 50vw;
+  height: 250px;
+  min-width: 60vw;
+  max-width: 60vw;
+
+  margin: 50px;
+  margin: 50px 100px;
+  margin: 10px 50px 100px 200px;
+  margin-top: 150px;
+  margin-bottom: 160px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-block: 300px;
+  margin-inline: 150px;
+  margin: auto;
+
+  padding: 40px;
+}
+
+.circulo{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #00078e;
+  border-radius: 50%;
+  box-shadow: 10px 5px 10px 8px rgba(78, 174, 0, 0.5);
+}
+
+.circulo:hover{
+  box-shadow: -10px -5px 10px 8px rgba(78, 174, 0, 0.5);
+}
+
+.content{
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+  border: 1px solid #000;
+  background: #4eae00;
+  background-color: rgba(78, 174, 0, 0.5);
+
+  background-image: url('../resources/fondo2.webp'), 
+                    url('../resources/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: contain;
+  background-size: 150px, cover;
+  background-position: 598px 123px, 0;
+  /* background: url('../resources/fondo2.webp') 150px no-repeat , 
+  url('../resources/fondo1.jpg') cover no-repeat; */
+}
+
+.c1{
+  background-color: red; 
+  width: 50px; 
+  height: 50px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+
+.c2{
+  background-color: blue; 
+  width: 50px; 
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+}
+
+.c3{
+  background-color: yellow; 
+  width: 50px; 
+  height: 50px;
+  position: sticky;
+  top: 50px
+}
+
+.c4{
+  background-color: green; 
+  width: 50px; 
+  height: 50px;
+}
+
+.float{
+  width: 80vw;
+  height: 180vh;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.flex{
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #000;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
