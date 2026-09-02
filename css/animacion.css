@@ -1,0 +1,54 @@
+.content{
+    width: 150px;
+    height: 150px;
+    background-color: #1900ff;
+    transition-property: width, background-color, border-radius;
+    transition-duration: 500ms, 1s, 500ms;
+    transition-timing-function: linear;
+    transition-delay: 1s, 0s, 500ms;
+    transition: width 500ms linear 1s, background-color 1s linear, 
+    border-radius, 500ms linear 500ms;
+}
+
+.content:hover{
+    width: 300px;
+    background-color: #ff0000;
+    border-radius: 50px;
+}
+
+.cr1{
+    background-color: #ff0000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anime {
+    /* from{
+        top: 0px;
+    }
+    to{
+        top: 100vh;
+    } */
+    0%{
+        top: 0px;
+    }
+    50%{
+        background-color: #1900ff;
+    }
+    75%{
+        border-radius: 0px;
+    }
+    100%{
+        top: 100vh;
+    }
+}
